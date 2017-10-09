@@ -1,0 +1,59 @@
+
+.ol-ic{
+    background: url('../img/migoff-sprite.png') no-repeat top left;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ol-arrow-bottom{
+    background-position: -20px 0px;
+    width: 20px;
+    height: 20px;
+}
+
+.faqs-item{
+    overflow: hidden;
+}
+
+.faqs-item.active{
+
+}
+
+.faqs-item.active .ol-arrow-bottom{
+    background-position: 0 0;
+}
+
+.head-faq{
+    color: #000;
+    font-size: 14px;
+    padding: 18px 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e2e2e2;
+    display: block;
+}
+
+.head-faq i{
+    margin-right: 12px;
+}
+
+.faqs-item.active .head-faq{
+    color: #cb011b;
+    font-size: 14px;
+    border: none;
+}
+
+.content-faq{
+    display: none;
+}
+
+.faqs-item.active .content-faq{
+    display: block;
+}
+
+.ib{
+    display: inline-block;
+} 
+
+.va{
+    vertical-align: middle;
+}

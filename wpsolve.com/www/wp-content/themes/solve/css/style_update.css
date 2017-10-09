@@ -1,0 +1,40 @@
+.banner-calc {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.banner-rates,
+.banner-about {
+    float: right;
+    margin-top: 89px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.banner-country {
+    float: right;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+.country a.first-pdf {
+    display: block!important;
+}
+
+.country a.first-pdf i {
+    float: left;
+}          
+
+.shippingCosts .exchangeRates .leftBlok .left label {
+    margin-bottom: -4px!important;
+}
+
+.topBlock {
+    position: fixed;
+    z-index: 500;
+}
+
+.headCarousel {
+    overflow: hidden;
+}
